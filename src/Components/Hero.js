@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Doctor from "../Assets/animal.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { faPaw, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/Hero.css";
 
@@ -48,7 +48,7 @@ function Hero() {
             type="button"
             onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faPaw} /> Explore Services
           </button>
           <div className="text-stats">
             <div className="text-stats-container">

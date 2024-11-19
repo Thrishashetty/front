@@ -5,7 +5,7 @@ import "../Styles/Info.css";
 
 function PetInfo() {
   return (
-    <div className="info-section" id="pet-services">
+    <div className="info-section" id="services">
       <div className="info-title-content">
         <h3 className="info-title">
           <span>What We Offer for Your Pets</span>

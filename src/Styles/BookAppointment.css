@@ -5,12 +5,16 @@
     align-items: center;
     gap: 24px;
     background-color: white;
+    min-height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
+    transform: translateY(-20px); /* Move the section slightly upward */
 }
 /* Image */
 .ba-image-content {
     width: 50%;
     max-width: 100%;
     text-align: center;
+    margin-top: -130px; /* Move the image content slightly upward */
 }
 .ba-image1 {
     width: 90%;
@@ -84,6 +88,8 @@
 @media screen and (max-width: 1000px) {
     .ba-section {
         display: block;
+        padding: 24px;
+        transform: translateY(-10px); /* Move the section upward for smaller screens */
     }
     .ba-image-content {
         width: 100%;

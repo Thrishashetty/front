@@ -10,12 +10,20 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              Cuepets{" "}
+              <span className="ft-sign">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                >
+                  <path d="M256 0c-30.9 0-56 25.1-56 56s25.1 56 56 56 56-25.1 56-56-25.1-56-56-56zm-96 112c-22.1 0-40 17.9-40 40s17.9 40 40 40 40-17.9 40-40-17.9-40-40-40zm192 0c-22.1 0-40 17.9-40 40s17.9 40 40 40 40-17.9 40-40-17.9-40-40-40zm-96 80c-97.2 0-176 78.8-176 176 0 39.8 24.1 74.7 60 91.5C166.5 468 208.3 480 256 480s89.5-12 112-30.5c35.9-16.8 60-51.7 60-91.5 0-97.2-78.8-176-176-176zm176 16c-22.1 0-40 17.9-40 40s17.9 40 40 40 40-17.9 40-40-17.9-40-40-40zM80 208c-22.1 0-40 17.9-40 40s17.9 40 40 40 40-17.9 40-40-17.9-40-40-40z" />
+                </svg>
+              </span>
             </p>
             <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
+              Talk to online vets and get medical advice, prescriptions, and health tips for your pets within minutes. On-demand pet care services at your fingertips.
             </p>
           </div>
 
@@ -23,22 +31,22 @@ function Footer() {
         </div>
 
         <div className="ft-list">
-          <p className="ft-list-title">Services</p>
+          <p className="ft-list-title">Our Services</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
+              <a href="#services">Emergency Vet Care</a>
             </li>
             <li>
-              <a href="#services">Heart Disease</a>
+              <a href="#services">Vaccination & Health Checks</a>
             </li>
             <li>
-              <a href="#services">Dental Care</a>
+              <a href="#services">Pet Nutrition & Diet</a>
             </li>
             <li>
-              <a href="#services">Prescription</a>
+              <a href="#services">Online Consultations</a>
             </li>
             <li>
-              <a href="#services">Insights for doctors</a>
+              <a href="#services">Adoption Assistance</a>
             </li>
           </ul>
         </div>
@@ -68,12 +76,10 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:support@petcare.com">support@petcare.com</a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
-              </a>
+              <a href="mailto:appointments@petcare.com">appointments@petcare.com</a>
             </li>
             <li>
               <a href="tel:+022 5454 5252">+022 5454 5252</a>
@@ -86,7 +92,7 @@ function Footer() {
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2013-2023 PetCare+. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>

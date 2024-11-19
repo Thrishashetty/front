@@ -4,6 +4,7 @@ import {
   faCommentDots,
   faBars,
   faXmark,
+  faPaw, // Import Paw icon
 } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
@@ -31,7 +32,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Cuepets <span className="navbar-sign">+</span>
+          Cuepets <FontAwesomeIcon icon={faPaw} className="paw-icon" />
         </Link>
       </h1>
 
@@ -53,8 +54,8 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
-            Reviews
+          <a href="#article" className="navbar-links">
+            Article
           </a>
         </li>
         <li>
@@ -96,8 +97,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
-              Reviews
+            <a onClick={openNav} href="#article">
+              Article
             </a>
           </li>
           <li>

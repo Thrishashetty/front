@@ -16,7 +16,7 @@ function PetCareTips() {
   };
 
   return (
-    <div className="ba-section">
+    <div className="ba-section" id="article">
       <div className="ba-image-content">
         <img src={Pets} alt="Happy Pets Group" className="ba-image1" />
       </div>
