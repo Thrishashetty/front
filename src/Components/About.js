@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/doctor-group.png";
+import Doctor from "../Assets/animal2.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -15,27 +15,28 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+        Welcome to Cue Pets, a comprehensive platform designed to help pet owners
+         easily manage health records, track vaccination schedules, and
+          access trusted veterinary information. Cue Pets is here to simplify
+           pet healthcare, ensuring you never miss a vital checkup or vaccination. Stay 
+           proactive and keep your pets happy and healthy with Cue Pets!.
         </p>
 
-        <h4 className="about-text-title">Your Solutions</h4>
+        <h4 className="about-text-title">Key Features</h4>
 
         <SolutionStep
-          title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          title="Pet medical records and vaccination tracking"
+          description="Securely store and access your pet’s health records in one place."
         />
 
         <SolutionStep
-          title="Make a Schedule"
-          description="Choose the date and time that suits you best, and let our dedicated team of medical professionals ensure your well-being with personalized care."
+          title="Adoption services to connect pets with homes"
+          description="Connect loving pets with forever homes through our easy-to-use adoption platform."
         />
 
         <SolutionStep
-          title="Get Your Solutions"
-          description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
+          title="Veterinary articles and care guides"
+          description="Access expert articles on pet care, health, and wellness."
         />
       </div>
     </div>

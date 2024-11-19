@@ -23,7 +23,7 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose Health</span>
+          <span>Health Records</span>
         </h3>
         <p className="ba-description">
           Discover the reasons to choose Health Plus for your healthcare needs.
