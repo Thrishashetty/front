@@ -6,7 +6,7 @@ import {
   faPaw,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import "../Styles/BookAppointment.css";
+import "../Styles/Article.css";
 
 function PetCareTips() {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Info from "../Components/Info";
 import About from "../Components/About";
-import BookAppointment from "../Components/BookAppointment";
+import Article from "../Components/Article";
 import Reviews from "../Components/Reviews";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
@@ -15,7 +15,7 @@ function Home() {
       <Hero />
       <Info />
       <About />
-      <BookAppointment />
+      <Article />
       <Reviews />
       <Doctors />
       <Footer />
