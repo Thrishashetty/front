@@ -1,126 +1,73 @@
-.review-section {
-    padding: 32px;
+/* Main Section */
+.fact-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
-}
-/* Text */
-.rw-text-content {
-    width: 100%;
-}
-.rw-text-title {
-    margin: 16px 0;
-    color: #6F7074;
-    font-family: 'Rubik', sans-serif;
-    font-size: 32px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styles */
+  .rw-text-title {
+    font-size: 1.8rem;
+    color: #333;
     font-weight: bold;
-    letter-spacing: .7px;
-}
-.rw-text-num {
-    color: #178BFF;
-}
-.rw-text-desc {
-    margin: 16px 0;
-    color: black;
-    font-family: 'Rubik', sans-serif;
-    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .rw-text-highlight {
+    color: #1e8ffd;
+  }
+  
+  /* Fact Display Styles */
+  .rw-text-format {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .rw-text-quote1,
+  .rw-text-quote2 {
+    font-size: 2rem;
+    color: #ccc;
+  }
+  
+  /* Pet Type Styles */
+  .rw-pet-type {
+    font-size: 1rem;
+    color: #1e8ffd;
     font-weight: bold;
-    letter-spacing: .7px;
-    line-height: 2.6rem;
-}
-.rw-text-format {
-    margin: 64px 0;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  /* Navigation Buttons */
+  .rw-btns {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-}
-.rw-text-quote1 {
-    position: absolute;
-    top: -18px;
-    left: -24px;
-    color: #178BFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-.rw-text-quote2 {
-    position: absolute;
-    right: -18px;
-    bottom: -24px;
-    color: #178BFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-.rw-review {
-    display: block;
-    margin: 0 0 0 8px;
-    color: black;
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    letter-spacing: .7px;
-    line-height: 2.2rem;
-}
-.rw-authors {
-    margin: 0 0 0 8px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.rw-reviewer-name {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: .8px;
-}
-.rw-reviewer-place {
-    margin: 6px 0 0 0;
-    color: #6F7074;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: .8px;
-}
-/* Buttons */
-.rw-next-btn {
-    margin: 0 24px 0 0;
-    color: black;
-    border: 1px solid transparent;
-    background-color: transparent;
-    outline: transparent;
-    font-size: 48px;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .rw-next-btn {
+    font-size: 1rem;
+    background-color: #1e8ffd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-}
-.rw-next-btn:hover {
-    color: #178BFF;
-}
-/* Responsive */
-@media screen and (max-width: 700px) {
-    .review-section {
-        letter-spacing: .8px;
-    }
-    .rw-text-title {
-        font-size: 22px;
-    }
-    .rw-text-desc {
-        font-size: 28px;
-    }
-    .rw-review {
-        font-size: 22px;
-        letter-spacing: .7px;
-        line-height: 1.8rem;
-    }
-    .rw-reviewer-name {
-        font-size: 20px;
-    }
-    .rw-next-btn {
-        margin: 0 16px 0 0;
-        font-size: 40px;
-    }
-}
+    transition: background-color 0.3s ease;
+  }
+  
+  .rw-next-btn:hover {
+    background-color: #005bb5;
+  }
+  

@@ -1,60 +1,57 @@
 import React from "react";
-import Doctor from "../Assets/doctor-book-appointment.png";
+import Pets from "../Assets/animal3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
-  faCalendarCheck,
+  faPaw,
 } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Styles/BookAppointment.css";
 
-function BookAppointment() {
+function PetCareTips() {
   const navigate = useNavigate();
 
-  const handleBookAppointmentClick = () => {
-    navigate("/appointment");
+  const handleExploreArticlesClick = () => {
+    navigate("/articles");
   };
 
   return (
     <div className="ba-section">
       <div className="ba-image-content">
-        <img src={Doctor} alt="Doctor Group" className="ba-image1" />
+        <img src={Pets} alt="Happy Pets Group" className="ba-image1" />
       </div>
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Health Records</span>
+          <span>Pet Care Tips & Articles</span>
         </h3>
         <p className="ba-description">
-          Discover the reasons to choose Health Plus for your healthcare needs.
-          Experience expert care, convenience, and personalized solutions,
-          making your well-being our top priority. Join us on a journey to
-          better health and a happier life.
+          Explore our resources to ensure your pets are happy and healthy. From expert advice to practical tips, we’ve got everything you need to provide the best care for your furry companions.
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Best Professional Doctors
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Expert-Reviewed Pet Articles
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Emergency Care
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Tips for a Healthy Lifestyle
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> 24/7 Support Live Chat
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Guidance on Pet Nutrition
         </p>
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Enrollment Easy and Quick
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Behavioral Training Tips
         </p>
 
         <button
           className="text-appointment-btn"
           type="button"
-          onClick={handleBookAppointmentClick}
+          onClick={handleExploreArticlesClick}
         >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          <FontAwesomeIcon icon={faPaw} /> Explore Articles
         </button>
       </div>
     </div>
   );
 }
 
-export default BookAppointment;
+export default PetCareTips;

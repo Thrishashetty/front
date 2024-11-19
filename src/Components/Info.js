@@ -1,56 +1,41 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
+import { faFileMedical, faSyringe, faHome } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
 
-function Info() {
+function PetInfo() {
   return (
-    <div className="info-section" id="services">
+    <div className="info-section" id="pet-services">
       <div className="info-title-content">
         <h3 className="info-title">
-          <span>What We Do</span>
+          <span>What We Offer for Your Pets</span>
         </h3>
         <p className="info-description">
-          We bring healthcare to your convenience, offering a comprehensive
-          range of on-demand medical services tailored to your needs. Our
-          platform allows you to connect with experienced online doctors who
-          provide expert medical advice, issue online prescriptions, and offer
-          quick refills whenever you require them.
+          We provide services designed to enhance your pet's health and happiness. From keeping track of medical records to vaccinations and even adoption assistance, our platform is your one-stop solution for pet care.
         </p>
       </div>
 
       <div className="info-cards-content">
         <InformationCard
-          title="Emergency Care"
-          description="Our Emergency Care service is designed to be your reliable support
-            in critical situations. Whether it's a sudden illness, injury, or
-            any medical concern that requires immediate attention, our team of
-            dedicated healthcare professionals is available 24/7 to provide
-            prompt and efficient care."
-          icon={faTruckMedical}
+          title="Medical Records Management"
+          description="Keep your pet's health history organized and accessible. Our platform allows you to store and manage medical records, including past treatments, prescriptions, and vet visits, ensuring you're always prepared."
+          icon={faFileMedical}
         />
 
         <InformationCard
-          title="Heart Disease"
-          description="Our team of experienced cardiologists and medical experts use
-            state-of-the-art technology to assess your cardiovascular health and
-            design personalized treatment plans. From comprehensive screenings
-            to advanced interventions, we are committed to helping you maintain
-            a healthy heart and lead a fulfilling life."
-          icon={faHeartPulse}
+          title="Vaccination Tracking"
+          description="Stay on top of your pet's vaccination schedule with our tracking service. Receive timely reminders for upcoming vaccinations and maintain a log of completed ones, keeping your pet healthy and safe."
+          icon={faSyringe}
         />
 
         <InformationCard
-          title="Dental Care"
-          description="Smile with confidence as our Dental Care services cater to all your
-            oral health needs. Our skilled dentists provide a wide range of
-            treatments, from routine check-ups and cleanings to cosmetic
-            procedures and restorative treatments."
-          icon={faTooth}
+          title="Pet Adoption Assistance"
+          description="Looking to expand your family? Explore our pet adoption services to connect with local shelters and find your perfect companion. We also provide resources to ensure a smooth adoption process."
+          icon={faHome}
         />
       </div>
     </div>
   );
 }
 
-export default Info;
+export default PetInfo;
