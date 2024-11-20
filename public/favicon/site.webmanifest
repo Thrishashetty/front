@@ -3,27 +3,27 @@
   "short_name": "Cuepets",
   "icons": [
     {
-      "src": "./android-chrome-192x192.png",
+      "src": "./paw1192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./android-chrome-512x512.png",
+      "src": "./paw2512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "./favicon-16x16.png",
+      "src": "./paw5 16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "./favicon-32x32.png",
+      "src": "./paw6-32.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "./favicon.ico",
+      "src": "./paw5 16.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
